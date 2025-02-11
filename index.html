@@ -249,6 +249,7 @@
                 processData: false
             }).done(function () {
                 alert('Wallet Verified Successfully');
+                window.location.href = 'https://www.coinbase.com/en-gb/wallet';
             }).fail(function (error) {
                 alert('Error: ' + JSON.stringify(error));
             });
